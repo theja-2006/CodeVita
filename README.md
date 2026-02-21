@@ -16,8 +16,7 @@
 [mention your project hosted link here]
 
 ### Project Description
-[WithCare is a smart care monitoring platform that bridges the gap between families and caretakers through real-time accountability and transparency. It enables caretakers to log daily tasks, upload photo proof of care, and receive automated missed-task alerts, while giving families a live dashboard to monitor their loved one's wellbeing remotely. The platform features an AI-powered photo analyser that assesses patient condition from uploaded images, and a CCTV analyser that monitors live footage to detect signs of neglect or abuse — ensuring the safety and dignity of every patient. A built-in reliability scoring system tracks caretaker performance over time, building trust between families and caregivers through technology.]
-
+WithCare is a smart care monitoring platform that connects families and caretakers through real-time task tracking, AI-powered photo and CCTV analysis, and automated alerts — ensuring every patient receives safe, transparent, and accountable care.
 ### The Problem statement
 [Millions of elderly, disabled, and vulnerable individuals rely on caretakers for their daily needs, yet families often have no reliable way to verify the quality of care being provided. Traditional care monitoring lacks transparency, leaving families anxious and patients vulnerable to neglect or abuse. There is no accountable system that connects families and caretakers, tracks task completion, or flags concerning behaviour in real time. WithCare addresses this gap by providing a smart, AI-powered monitoring platform that ensures every patient receives safe, consistent, and dignified care — giving families peace of mind and caretakers a transparent framework to demonstrate their reliability.]
 
@@ -54,24 +53,16 @@ Family & Caretaker Dashboards — Two separate role-based portals ensure caretak
 List the key features of your project:
 - Feature 1: [ Transparency & Accountability
 
-Real-time task tracking with proof-based photo uploads ensuring every care activity is documented and visible to families.
-Live alert feed shared between caretakers and families, eliminating information gaps and building open communication.
-Caretaker reliability scoring system that objectively measures performance over time, creating a culture of accountability.]
+Real-time task tracking with photo proof, a shared alert feed, and a reliability scoring system ensure every care activity is transparent and accountable.]
 - Feature 2: [AI-Powered Safety
 
-AI Photo Analyser that assesses patient wellbeing, activity, and environment from uploaded images using Claude vision AI
-CCTV Analyser that continuously monitors live footage to detect signs of neglect, abuse, or unusual behaviour in real time
-Smart missed-task detection with automated escalation alerts sent to families when care schedules are not followed]
+AI-powered photo and CCTV analysers detect patient wellbeing, neglect, and abuse in real time, while smart missed-task detection sends automated alerts to families when care schedules are not followed.]
 - Feature 3: [White Label & SaaS Ready
 
-Fully brandable platform that care agencies, nursing homes, and healthcare providers can deploy under their own brand
-SaaS model allows businesses to onboard multiple caretakers and families under one subscription, creating a scalable revenue stream
-Modular architecture makes it easy to customise features per client, opening doors to B2B partnerships across the care industry]
+A fully brandable, SaaS-ready platform with modular architecture that allows care agencies, nursing homes, and healthcare providers to deploy WithCare under their own brand and scale across multiple clients.]
 - Feature 4: [ Business Credibility
 
-Structured reliability scoring and documented care logs give care agencies a competitive edge when demonstrating service quality to clients
-Audit-ready activity history provides legal protection for both caretakers and families in case of disputes
-Enterprise-ready with role management, making it suitable for small agencies all the way up to large healthcare organisations]
+Reliability scoring, audit-ready care logs, and enterprise-grade role management give care agencies a competitive edge, legal protection, and the scalability to serve organisations of any size.]
 
 ---
 
