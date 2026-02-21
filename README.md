@@ -98,10 +98,7 @@ Reliability scoring, audit-ready care logs, and enterprise-grade role management
 
 ![<img width="1888" height="854" alt="Screenshot 2026-02-21 080239" src="https://github.com/user-attachments/assets/0b0781a3-a7c5-40a4-b9c2-d8dff9f56c3b" />
 ]
-*Landing Page — Login & Registration Screen
-This is the entry point of the WithCare platform, designed with a clean two-panel layout. The left side features the WithCare branding with a soft green gradient background, displaying the platform's tagline and four core feature highlights — giving first-time visitors an immediate understanding of what the platform offers.
-The right side contains a tabbed authentication panel with Login and Register options. The Register form collects the user's full name, email, and password, and includes a role selection step where the user identifies themselves as either a Family Member or a Caretaker — this choice determines which dashboard they are redirected to after registration, ensuring each user sees only the tools relevant to their role.
-Overall the page communicates trust, simplicity, and professionalism — setting the right tone for a platform built around the safety and care of vulnerable individuals.*
+*The WithCare landing page features a clean two-panel layout where the left side displays the branding and core feature highlights, while the right side contains a tabbed Login and Register form — with role selection that routes users to either the Family or Caretaker dashboard upon authentication.*
 
 ![Screenshot2]
 *Add caption explaining what this shows*
