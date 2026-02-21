@@ -100,11 +100,13 @@ Reliability scoring, audit-ready care logs, and enterprise-grade role management
 ]
 *The WithCare landing page features a clean two-panel layout where the left side displays the branding and core feature highlights, while the right side contains a tabbed Login and Register form — with role selection that routes users to either the Family or Caretaker dashboard upon authentication.*
 
-![Screenshot2]
-*Add caption explaining what this shows*
+![<img width="1897" height="1057" alt="Screenshot 2026-02-21 075833" src="https://github.com/user-attachments/assets/77cda9e6-e5be-4a7e-996c-50d41348d6f1" />
+]
+*The Family Dashboard gives families a real-time overview of their loved one's care, displaying task status, missed alerts, caretaker rating, photo proof, and a live care alert feed showing completed and missed tasks with timestamps.*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![<img width="1901" height="1051" alt="Screenshot 2026-02-21 092320" src="https://github.com/user-attachments/assets/8dffd90e-3369-4fd6-bd66-b8c068ca0688" />
+](Add screenshot 3 here with proper name)
+*The Caretaker Dashboard provides caretakers with a daily task checklist to mark care activities as completed, a photo upload section for proof of care, and real-time stats showing tasks done, progress percentage, photos uploaded, and active alerts.*
 
 #### Diagrams
 
