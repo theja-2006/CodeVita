@@ -52,10 +52,26 @@ Family & Caretaker Dashboards — Two separate role-based portals ensure caretak
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: [ Transparency & Accountability
+
+Real-time task tracking with proof-based photo uploads ensuring every care activity is documented and visible to families.
+Live alert feed shared between caretakers and families, eliminating information gaps and building open communication.
+Caretaker reliability scoring system that objectively measures performance over time, creating a culture of accountability.]
+- Feature 2: [AI-Powered Safety
+
+AI Photo Analyser that assesses patient wellbeing, activity, and environment from uploaded images using Claude vision AI
+CCTV Analyser that continuously monitors live footage to detect signs of neglect, abuse, or unusual behaviour in real time
+Smart missed-task detection with automated escalation alerts sent to families when care schedules are not followed]
+- Feature 3: [White Label & SaaS Ready
+
+Fully brandable platform that care agencies, nursing homes, and healthcare providers can deploy under their own brand
+SaaS model allows businesses to onboard multiple caretakers and families under one subscription, creating a scalable revenue stream
+Modular architecture makes it easy to customise features per client, opening doors to B2B partnerships across the care industry]
+- Feature 4: [ Business Credibility
+
+Structured reliability scoring and documented care logs give care agencies a competitive edge when demonstrating service quality to clients
+Audit-ready activity history provides legal protection for both caretakers and families in case of disputes
+Enterprise-ready with role management, making it suitable for small agencies all the way up to large healthcare organisations]
 
 ---
 
@@ -89,10 +105,14 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![<img width="1888" height="854" alt="Screenshot 2026-02-21 080239" src="https://github.com/user-attachments/assets/0b0781a3-a7c5-40a4-b9c2-d8dff9f56c3b" />
+]
+*Landing Page — Login & Registration Screen
+This is the entry point of the WithCare platform, designed with a clean two-panel layout. The left side features the WithCare branding with a soft green gradient background, displaying the platform's tagline and four core feature highlights — giving first-time visitors an immediate understanding of what the platform offers.
+The right side contains a tabbed authentication panel with Login and Register options. The Register form collects the user's full name, email, and password, and includes a role selection step where the user identifies themselves as either a Family Member or a Caretaker — this choice determines which dashboard they are redirected to after registration, ensuring each user sees only the tools relevant to their role.
+Overall the page communicates trust, simplicity, and professionalism — setting the right tone for a platform built around the safety and care of vulnerable individuals.*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2]
 *Add caption explaining what this shows*
 
 ![Screenshot3](Add screenshot 3 here with proper name)
