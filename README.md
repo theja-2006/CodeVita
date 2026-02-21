@@ -2,27 +2,33 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [WithCare] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [CodeVita]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [Theja B Nair] - [LBS Institute of Technology for Women]
+- Member 2: [Paarvathy VS] - [LBS Institute of Technology for Women]
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+[WithCare is a smart care monitoring platform that bridges the gap between families and caretakers through real-time accountability and transparency. It enables caretakers to log daily tasks, upload photo proof of care, and receive automated missed-task alerts, while giving families a live dashboard to monitor their loved one's wellbeing remotely. The platform features an AI-powered photo analyser that assesses patient condition from uploaded images, and a CCTV analyser that monitors live footage to detect signs of neglect or abuse — ensuring the safety and dignity of every patient. A built-in reliability scoring system tracks caretaker performance over time, building trust between families and caregivers through technology.]
 
 ### The Problem statement
-[What problem are you solving?]
+[Millions of elderly, disabled, and vulnerable individuals rely on caretakers for their daily needs, yet families often have no reliable way to verify the quality of care being provided. Traditional care monitoring lacks transparency, leaving families anxious and patients vulnerable to neglect or abuse. There is no accountable system that connects families and caretakers, tracks task completion, or flags concerning behaviour in real time. WithCare addresses this gap by providing a smart, AI-powered monitoring platform that ensures every patient receives safe, consistent, and dignified care — giving families peace of mind and caretakers a transparent framework to demonstrate their reliability.]
 
 ### The Solution
-[How are you solving it?]
+[WithCare tackles the problem through a combination of smart technology and structured accountability:
+Real-Time Task Monitoring — Caretakers log daily care tasks such as medication, meals, and therapy sessions, with automated alerts triggered when tasks are missed beyond a 5-minute grace period, keeping families instantly informed.
+Photo Proof of Care — Caretakers upload photos as visual evidence of completed tasks, which families can view directly from their dashboard, replacing assumptions with verified proof.
+AI Photo Analyser — Using Claude's vision AI, uploaded patient photos are analysed for wellbeing indicators, activity, environment safety, and alert level — giving families an intelligent second opinion on their loved one's condition.
+CCTV Analyser — Live or recorded footage is processed by AI to detect signs of neglect, abuse, or unusual behaviour, acting as a passive safety net that monitors care quality around the clock.
+Caretaker Reliability Scoring — A dynamic scoring system tracks missed tasks and performance over time, creating accountability and helping families make informed decisions about their caretaker.
+Family & Caretaker Dashboards — Two separate role-based portals ensure caretakers stay organised and families stay informed, with a shared alert feed that keeps both sides transparently connected.]
 
 ---
 
@@ -31,10 +37,10 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: [JavaScript, HTML, CSS]
+- Frameworks used: [NILL]
+- Libraries used: [NILL]
+- Tools used: [VS Code, Claude, ChatGPT]
 
 **For Hardware:**
 - Main components: [List main components]
