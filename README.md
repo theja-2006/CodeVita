@@ -13,7 +13,7 @@
 - Member 2: [Paarvathy VS] - [LBS Institute of Technology for Women]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+[https://theja-2006.github.io/CodeVita/]
 
 ### Project Description
 WithCare is a smart care monitoring platform that connects families and caretakers through real-time task tracking, AI-powered photo and CCTV analysis, and automated alerts — ensuring every patient receives safe, transparent, and accountable care.
