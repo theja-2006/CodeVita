@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WithCare — Smart Care Monitoring</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="left-panel">
+            <h1>WithCare</h1>
+            <p class="tagline">
+                Smart care monitoring platform connecting families and caretakers with trust and accountability.
+            </p>
+
+            <div class="features">
+                <div>✔ Real-time care tracking</div>
+                <div>✔ Proof-based task completion</div>
+                <div>✔ Smart missed-task alerts</div>
+                <div>✔ Caretaker reliability scoring</div>
+            </div>
+        </div>
+
+        <div class="right-panel">
+
+            <div class="tabs">
+                <button id="loginTab" class="active">Login</button>
+                <button id="registerTab">Register</button>
+            </div>
+
+            <!-- LOGIN FORM -->
+            <form id="loginForm" class="form active-form">
+                <h2>Welcome Back</h2>
+
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+
+                <button type="submit" class="primary-btn">Login</button>
+            </form>
+
+            <!-- REGISTER FORM -->
+            <form id="registerForm" class="form">
+                <h2>Create Account</h2>
+
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+
+                <label class="role-label">Select Role</label>
+
+                <div class="role-select">
+                    <label>
+                        <input type="radio" name="role" value="family" required>
+                        👨‍👩‍👧 Family Member
+                    </label>
+
+                    <label>
+                        <input type="radio" name="role" value="caretaker">
+                        🧑‍⚕️ Caretaker
+                    </label>
+                </div>
+
+                <button type="submit" class="primary-btn">Register</button>
+            </form>
+
+        </div>
+
+    </div>
+
+<script src="auth.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

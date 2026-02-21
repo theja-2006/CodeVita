@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WithCare — Caretaker Panel</title>
+    <link rel="stylesheet" href="caretaker.css">
+</head>
+<body>
+
+<div class="layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <h2 class="logo">💚 WithCare</h2>
+
+        <nav>
+            <a class="active">🏠 Dashboard</a>
+            <a>📋 Checklists</a>
+            <a>📅 Calendar</a>
+            <a>📷 Media</a>
+            <a>🔔 Notifications</a>
+            <a>⚙ Settings</a>
+        </nav>
+
+        <button onclick="logout()" class="logout">Sign Out</button>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+
+        <!-- TOP BAR -->
+        <div class="topbar">
+            <div>
+                <h1 id="greeting">Good morning 👋</h1>
+                <p>Here's today's care summary.</p>
+            </div>
+
+            <button class="emergency">⚠ Emergency Alert</button>
+        </div>
+
+        <!-- STATS -->
+        <div class="stats">
+
+            <div class="stat-card">
+                <h4>Tasks Done</h4>
+                <p id="tasksDone">0/0</p>
+            </div>
+
+            <div class="stat-card">
+                <h4>Progress</h4>
+                <p id="progress">0%</p>
+            </div>
+
+            <div class="stat-card">
+                <h4>Photos Today</h4>
+                <p id="photos">0</p>
+            </div>
+
+            <div class="stat-card">
+                <h4>Alerts</h4>
+                <p id="alerts">0</p>
+            </div>
+
+        </div>
+
+        <!-- CONTENT GRID -->
+        <div class="content-grid">
+
+            <!-- CHECKLIST -->
+            <div class="checklist-card">
+    <div class="card-header">
+        <h3>Today's Checklist</h3>
+        <button class="add-btn" onclick="addTask()">+ Add Task</button>
+    </div>
+
+    <!-- ✅ NEW: Photo Upload Section -->
+    <div style="padding: 12px 16px; border-bottom: 1px solid #eee;">
+        <label style="font-weight:600;">📷 Upload Patient Photo</label><br>
+        <input type="file" id="photoUpload" accept="image/*">
+        <img id="photoPreview" style="width:100%;max-height:180px;object-fit:cover;border-radius:10px;margin-top:10px;display:none;">
+    </div>
+
+    <div id="taskList"></div>
+</div>
+
+            <!-- ACTIVITY -->
+            <div class="activity-card">
+                <h3>Recent Activity</h3>
+                <div id="activityList"></div>
+            </div>
+
+        </div>
+
+    </main>
+</div>
+
+<script src="auth.js"></script>
+<script src="caretaker.js"></script>
+
+</body>
+</html>

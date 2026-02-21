@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WithCare — Family Panel</title>
+    <link rel="stylesheet" href="family.css">
+</head>
+<body>
+
+<div class="layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <h2 class="logo">💚 WithCare</h2>
+
+        <nav>
+            <a class="active">🏠 Dashboard</a>
+            <a>👤 Care Profile</a>
+            <a>📋 Care Plan</a>
+            <a>📅 Calendar</a>
+            <a>🔔 Alerts</a>
+            <a>⚙ Settings</a>
+        </nav>
+
+        <button onclick="logout()" class="logout">Sign Out</button>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+
+        <!-- TOP -->
+        <div class="topbar">
+            <div>
+                <h1>Family Dashboard 👨‍👩‍👧</h1>
+                <p>Monitor care activities and alerts.</p>
+            </div>
+        </div>
+
+        <!-- STATS -->
+        <div class="stats">
+
+            <div class="stat-card">
+                <h4>Tasks Status</h4>
+                <p id="taskStatus">0 Pending</p>
+            </div>
+
+            <div class="stat-card">
+                <h4>Missed Alerts</h4>
+                <p id="missedAlerts">0</p>
+            </div>
+
+            <div class="stat-card">
+                <h4>Caretaker Rating</h4>
+                <p id="rating">⭐ 5.0</p>
+            </div>
+
+            <div class="stat-card">
+                <h4>Proof Uploaded</h4>
+                <img id="familyPhotoView"
+     style="width:100%;max-height:220px;object-fit:cover;border-radius:12px;display:none;margin-top:10px;">
+                <p id="proofCount">0</p>
+            </div>
+
+        </div>
+
+<div class="alerts-card">
+    <h3>🚨 Care Alerts</h3>
+    <div id="familyAlerts"></div>
+</div>
+
+        <!-- GRID -->
+        <div class="content-grid">
+
+            <!-- LEFT -->
+            <div>
+
+                <!-- CARE PROFILE -->
+                <div class="card">
+                    <h3>Create Care Profile</h3>
+
+                    <input id="patientName" placeholder="Patient name">
+
+                    <select id="careType">
+                        <option value="">Select care type</option>
+                        <option value="Elderly">👴 Elderly</option>
+                        <option value="Child">👶 Child</option>
+                        <option value="Special">♿ Special / Disabled</option>
+                    </select>
+
+                    <button onclick="saveProfile()" class="primary-btn">
+                        Save Profile
+                    </button>
+
+                    <p id="profileStatus" class="success-text"></p>
+                </div>
+
+                <!-- TASK ASSIGN -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Care Plan — Assign Tasks</h3>
+                        <button class="add-btn" onclick="addTask()">+ Add Task</button>
+                    </div>
+
+                    <div id="taskList"></div>
+                </div>
+
+            </div>
+
+            <!-- RIGHT -->
+            <div>
+
+                <!-- CALENDAR -->
+                <div class="card">
+                    <h3>📅 Care Calendar</h3>
+                    <input type="date" id="calendar">
+                </div>
+
+                <!-- ALERTS -->
+                <div class="card">
+                    <h3>🚨 Recent Alerts</h3>
+                    <div id="alertList"></div>
+                </div>
+
+                <!-- PROOF -->
+                <div class="card">
+                    <h3>📷 Care Updates</h3>
+                    <img id="familyPhotoView"
+     style="width:100%;max-height:220px;object-fit:cover;border-radius:12px;display:none;margin-top:10px;">
+
+<p id="noPhotoText" style="color:#777;">
+    Waiting for caretaker to upload a photo…
+</p>
+
+                </div>
+<div class="card",><h3>AI Analyser</h3>
+    <div id="aiAnalyser">
+
+</div>
+            </div>
+
+        </div>
+
+    </main>
+</div>
+
+<script src="auth.js"></script>
+<script src="family.js"></script>
+<script src="ai-analyzer.js"></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #d4f1dc, #a8e6cf);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN CONTAINER */
+.container {
+    width: 900px;
+    height: 550px;
+    background: #f7fff7;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.15);
+}
+
+/* LEFT PANEL */
+.left-panel {
+    width: 50%;
+    background: linear-gradient(135deg, #b7e4c7, #81c784);
+    color: #1b3a2a;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-panel h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.tagline {
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.features div {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #2e5d3a;
+}
+
+/* RIGHT PANEL */
+.right-panel {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #ffffff;
+}
+
+/* TABS */
+.tabs {
+    display: flex;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.tabs button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    background: #e0f2e9;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    color: #2f6f3e;
+}
+
+.tabs button.active {
+    background: #a3d9a5;
+    color: #ffffff;
+}
+
+/* FORMS */
+.form {
+    display: none;
+    flex-direction: column;
+}
+
+.active-form {
+    display: flex;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    color: #2f6f3e;
+}
+
+.form input {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #cce6d0;
+    font-size: 14px;
+    background: #f0fdfa;
+}
+
+/* ROLE */
+.role-label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #2f6f3e;
+}
+
+.role-select {
+    margin-bottom: 20px;
+}
+
+.role-select label {
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+    color: #3a7d49;
+}
+
+/* BUTTON */
+.primary-btn {
+    padding: 12px;
+    background: #81c784;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.primary-btn:hover {
+    background: #6bb46b;
+}
